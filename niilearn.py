@@ -1,48 +1,3 @@
-""" 
-Plotting
-
-from nilearn import plotting
-
-plotting.plot_img('C:\\Users\\jyuri\\Desktop\\ALS\\cohog2\\controls\\Control0.nii')
-plotting.show()
-"""
-
-"""
-3D and 4D niimgs: handling and visualizing
-
-from nilearn import datasets
-print('Datasets are stored in : %r' % datasets.get_data_dirs())
-
-tmap_filenames = datasets.fetch_localizer_button_task()['tmaps']
-print(tmap_filenames)
-
-tmap_filename = tmap_filenames[0]
-
-from nilearn import plotting
-plotting.plot_stat_map(tmap_filename)
-
-plotting.plot_stat_map(tmap_filename, threshold=3)
-plotting.show()
-
-"""
-
-"""
-Using the SVM from sklearn
-
-from sklearn.svm import SVC
-svc = SVC(kernel = 'linear', C = 1)
-
-from sklearn import datasets
-digits = datasets.load_digits()
-data = digits.data
-labels = digits.target
-
-svc.fit(data[:-10], labels[:-10])
-
-print(svc.predict(data[-10:]))
-print(labels[-10:])
-"""
-
 import nibabel as nib
 import os
 import numpy
@@ -62,6 +17,16 @@ from sklearn.feature_selection import SelectKBest
 
 
 def bin_sobel(s_mags):
+	"""
+	Given the magnitudes for the Soble gradient in the x,y and z directions, returns a number representing
+	the appropriate bin. Currently returns bin 1-8 and 0 if the gradient in any direction == 0
+
+	Parameters:
+		TUPLE/LIST containing the Sobel gradient magnitudes in the x,y and z directions.
+
+	Returns:
+		INT from 0-8 
+	"""
 	x = s_mags[0]
 	y = s_mags[1]
 	z = s_mags[2]
@@ -86,11 +51,23 @@ def bin_sobel(s_mags):
 		return 0
 
 def create_co_occurence_vector(matrix):
+	"""
+	Given a matrix representing the bin value of each voxel, creates a co-occurence matrix and returns it
+	in vectorized form.
+
+	Parameters:
+		NUMPY.NDARRAY matrix containing the bin value for each voxel
+	Returns:
+		NUMPY.ARRAY vector of size num_features
+	"""
 	print("Making co-occurrence vector")
 	start = time.time()
 
+	#scans offets in a cube out from the current voxel. Neighbourhood size is the 
+	#side length of that cube.
 	neighbourhoodsize = 4
 	num_offsets = neighbourhoodsize ** 3
+
 
 	co_matrix = numpy.zeros((9,9,num_offsets))
 	xdim,ydim,zdim = len(matrix),len(matrix[0]),len(matrix[0][0])
@@ -107,22 +84,32 @@ def create_co_occurence_vector(matrix):
 					for b in range(neighbourhoodsize):
 						for c in range(neighbourhoodsize):
 							neighbour_voxel = int(matrix.item(x+a,y+b,z+c))
-							# print("Scanning: " + str(scanning_voxel))
-							# print("neighbour_voxel: " + str(neighbour_voxel))
-							# print("offset_num: " + str(offset_count))
 							prev_value = co_matrix.item((scanning_voxel,neighbour_voxel,offset_count))
 
+							#increment the value by one every co-occurence
 							co_matrix.itemset((scanning_voxel, neighbour_voxel, offset_count), prev_value + 1)
 							offset_count += 1
 
 
-
+	#reshape matrix to one dimensional vector
 	co_vector = co_matrix.reshape(9 * 9 * num_offsets)
 	print("TIME: " + str(time.time() - start))
 
 	return co_vector
 
+
 def apply_sobel(img):
+
+	"""
+	Takes in the data array from a nii file and applies the Sobel gradient operator on it. Sobel gradient
+	directions are binned from 0-8.
+	Parameters:
+		NUMPY.NDARRAY representing the greyscale voxel values
+
+	Returns:
+		NUMPY.NDARRAY of the binned Sobel direction for each voxel
+		NUMPY.NDARRAY of the Sobel magnitude for each voxel
+	"""
 
 
 	print("Applying Sobel")
@@ -177,16 +164,26 @@ def apply_sobel(img):
 
 	return sobel_directions, sobel_magnitudes
 
-def load_and_downsample(df):
 
-	
+def load_and_downsample(df):
+	"""
+	Assumes the program is run from a directory containing folders for controls and patients. 
+	Loads nii files from those folders and downsamples them by the downsampling factor df.
+
+	Parameters:
+		INT df downsampling factor
+
+	Returns:
+		LIST downsampled controls
+		LIST downsampled patients
+	"""
 
 	controls = list()
 	patients = list()
 
-
 	os.chdir(os.getcwd() + "\\controls")
 	for f in os.listdir():
+		print("downsample " + str(f))
 		split_f = f.split(".")
 		if len(split_f) < 2  or split_f[1] != "nii":
 			continue
@@ -203,6 +200,7 @@ def load_and_downsample(df):
 
 	os.chdir(os.getcwd() + "\\patients")
 	for f in os.listdir():
+		print("downsample " + str(f))
 		split_f = f.split(".")
 		if len(split_f) < 2  or split_f[1] != "nii":
 			continue
@@ -211,7 +209,7 @@ def load_and_downsample(df):
 		downed = downscale(img.get_data(), (df,df,df))
 		# plotting.plot_img(downed_img)
 		# plotting.plot_img(img)
-		# plotting.show() new
+		# plotting.show() 
 		
 		patients.append(downed)		
 
@@ -219,7 +217,22 @@ def load_and_downsample(df):
 
 	return controls, patients
 
+
 def random_train_test_indices(num_patients, num_controls, percent_test):
+	"""
+	Returns randomly selected sets of indices used to test and train the svm.
+
+	Parameters:
+		INT number of patients
+		INT number of controls
+		FLOAT percent of samples to be used for testing (50% --> 0.5)
+
+	Returns:
+		SET patient training indexes
+		SET patient testing indexes
+		SET control training indexes
+		SET control testing indexes
+	"""
 
 	p_train_idxs = [p for p in range(num_patients)]
 	c_train_idxs = [c for c in range(num_controls)]	
@@ -246,18 +259,28 @@ def random_train_test_indices(num_patients, num_controls, percent_test):
 
 
 def train_and_test_svm(patients, controls):
+	"""
+	Uses a defined portion of the samples provided to train a SVM, the rest of the samples
+	are used to test the SVM.
 
+	Parameters:
+		LIST feature vectors representing the patients
+		LIST feature vectors representing the controls
 
+	Returns:
+		INT accuracy result from testing
+	"""
 
 	percent_train = 0.5
 
 	num_patients = len(patients)
 	num_controls = len(controls)
 
-	num_tests = 1
+	num_tests = 1000
 	print("\n\nBeginning SVM Testing/Training")
 	print(str(num_tests) + " tests")
 	start = time.time()
+	total_accuracy = 0
 
 	for n in range(num_tests):
 		p_train_idxs, p_test_idxs, \
@@ -300,26 +323,24 @@ def train_and_test_svm(patients, controls):
 			actual = test_classes[n]
 			guess = guesses[n]
 
-			print("ACTUAL:" + str(actual))
-			print("GUESS:" + str(guess) + "\n\n")
-
 			if actual == guess: 
 				num_correct += 1
 
-		print("Accuracy: " + str(num_correct*100/len(test_array)))
 
-		
+		accuracy = num_correct*100/len(test_array))
+		total_accuracy += accuracy
 
-
-
-
+	overall_accuracy = total_accuracy/num_tests
 
 	print("SVM TIME: " + str(time.time()-start) + "\n\n")
+
+	return overall_accuracy
 
 
 
 if __name__ == "__main__":
-	downsample_factor = 5
+	start = time.time()
+	downsample_factor = 4
 	controls, patients = load_and_downsample(downsample_factor)
 	c_vectors, p_vectors = list(), list()
 
@@ -343,13 +364,10 @@ if __name__ == "__main__":
 		count += 1
 
 
-	train_and_test_svm(p_vectors, c_vectors)
+	accuracy = train_and_test_svm(p_vectors, c_vectors)
+	print("ACCURACY: " + str(accuracy))
+	print("TOTAL TIME: " + str(time.time() - start))
 
-	# ptr, pte, ctr, cte = random_train_test_indices(10, 10)
-	# print(ptr)
-	# print(pte)
-	# print(ctr)
-	# print(cte)
 	
 
 
