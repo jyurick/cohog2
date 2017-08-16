@@ -56,7 +56,7 @@ from nilearn import masking
 from sklearn import svm
 import random
 from random import shuffle
-
+from sklearn.feature_selection import SelectKBest 
 
 
 
@@ -219,15 +219,10 @@ def load_and_downsample(df):
 
 	return controls, patients
 
-def random_train_test_indices(num_patients, num_controls):
-	percent_test = 0.5
+def random_train_test_indices(num_patients, num_controls, percent_test):
 
 	p_train_idxs = [p for p in range(num_patients)]
-
-	c_train_idxs = [c for c in range(num_controls)]
-
-
-	
+	c_train_idxs = [c for c in range(num_controls)]	
 	
 	p_test_idxs = set() 
 	c_test_idxs = set()
@@ -251,6 +246,9 @@ def random_train_test_indices(num_patients, num_controls):
 
 
 def train_and_test_svm(patients, controls):
+
+
+
 	percent_train = 0.5
 
 	num_patients = len(patients)
@@ -260,6 +258,60 @@ def train_and_test_svm(patients, controls):
 	print("\n\nBeginning SVM Testing/Training")
 	print(str(num_tests) + " tests")
 	start = time.time()
+
+	for n in range(num_tests):
+		p_train_idxs, p_test_idxs, \
+		c_train_idxs, c_test_idxs = random_train_test_indices(num_patients, num_controls, percent_train)
+
+		train_array = list()
+		test_array = list()
+		train_classes = list()
+		test_classes = list()
+
+		for i in p_train_idxs:
+			train_array.append(patients[i])
+			train_classes.append(1)
+
+		for i in p_test_idxs:
+			test_array.append(patients[i])
+			test_classes.append(1)
+
+		for i in c_train_idxs:
+			train_array.append(controls[i])
+			train_classes.append(0)
+
+		for i in c_test_idxs:
+			test_array.append(controls[i])
+			test_classes.append(0)
+
+		k_best = SelectKBest(k = 50)
+		train_array = k_best.fit_transform(train_array, train_classes)
+
+		clf = svm.SVC()
+		clf.fit(train_array, train_classes)
+
+		test_array = k_best.transform(test_array)
+		guesses = clf.predict(test_array)
+
+		num_correct = 0
+
+		for n in range(len(test_array)):
+			print(str(type(guesses)))
+			actual = test_classes[n]
+			guess = guesses[n]
+
+			print("ACTUAL:" + str(actual))
+			print("GUESS:" + str(guess) + "\n\n")
+
+			if actual == guess: 
+				num_correct += 1
+
+		print("Accuracy: " + str(num_correct*100/len(test_array)))
+
+		
+
+
+
 
 
 	print("SVM TIME: " + str(time.time()-start) + "\n\n")
@@ -289,6 +341,7 @@ if __name__ == "__main__":
 		p_vectors.append(co_vector)
 		print("\nTOTAL TIME:" + str(time.time() - start) + "\n\n")
 		count += 1
+
 
 	train_and_test_svm(p_vectors, c_vectors)
 
