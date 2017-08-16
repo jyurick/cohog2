@@ -54,6 +54,9 @@ from nilearn import plotting
 from skimage.transform import downscale_local_mean as downscale
 from nilearn import masking
 from sklearn import svm
+import random
+from random import shuffle
+
 
 
 
@@ -216,6 +219,36 @@ def load_and_downsample(df):
 
 	return controls, patients
 
+def random_train_test_indices(num_patients, num_controls):
+	percent_test = 0.5
+
+	p_train_idxs = [p for p in range(num_patients)]
+
+	c_train_idxs = [c for c in range(num_controls)]
+
+
+	
+	
+	p_test_idxs = set() 
+	c_test_idxs = set()
+
+	while len(p_test_idxs) < int(num_patients * percent_test):
+		shuffle(p_train_idxs)
+		rand_idx = p_train_idxs.pop()
+		p_test_idxs.add(rand_idx)
+
+	while len(c_test_idxs) < int(num_controls * percent_test):
+		shuffle(c_train_idxs)
+		rand_idx = c_train_idxs.pop()
+		c_test_idxs.add(rand_idx)
+
+	p_train_idxs = set(p_train_idxs)
+	c_train_idxs = set(c_train_idxs)
+
+	return p_train_idxs, p_test_idxs, c_train_idxs, c_test_idxs
+
+	
+
 
 def train_and_test_svm(patients, controls):
 	percent_train = 0.5
@@ -228,30 +261,6 @@ def train_and_test_svm(patients, controls):
 	print(str(num_tests) + " tests")
 	start = time.time()
 
-	
-
-	for i in range(num_tests):
-		clf = svm.SVC()
-		temp_p = patients
-		temp_c = controls
-		train_vectors, test_vectors = list(), list()
-		train_classes, test_classes = list(), list()
-
-		for p_train in range(num_patients*percent_train):
-			train_vectors.append(temp_p.pop())
-			train_classes.append(1)
-
-		for p_test in range(num_patients*(1-percent_ttrain),num_patients):
-			test_vectors.append(temp_p.pop())
-			test_classes.append(1)
-
-		for c_train in range(num_controls*percent_train):
-			train_ vectors.append(temp_c.pop())
-			train_classes.append(0)
-
-		for c_test in range(num_controls*(1-percent_train),num_controls):
-			test_vectors.append(temp_c.pop())
-			test_classes.append(0)
 
 	print("SVM TIME: " + str(time.time()-start) + "\n\n")
 
@@ -283,6 +292,11 @@ if __name__ == "__main__":
 
 	train_and_test_svm(p_vectors, c_vectors)
 
+	# ptr, pte, ctr, cte = random_train_test_indices(10, 10)
+	# print(ptr)
+	# print(pte)
+	# print(ctr)
+	# print(cte)
 	
 
 
