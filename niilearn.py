@@ -12,6 +12,7 @@ from sklearn import svm
 import random
 from random import shuffle
 from sklearn.feature_selection import SelectKBest 
+from sklearn.feature_selection import chi2
 
 
 
@@ -65,7 +66,7 @@ def create_co_occurence_vector(matrix):
 
 	#scans offets in a cube out from the current voxel. Neighbourhood size is the 
 	#side length of that cube.
-	neighbourhoodsize = 4
+	neighbourhoodsize = 2
 	num_offsets = neighbourhoodsize ** 3
 
 
@@ -137,8 +138,8 @@ def apply_sobel(img):
 
 				
 	max_mag = numpy.max(sobel_magnitudes[0])
-	print("Average: " + str(numpy.average(sobel_magnitudes[0])))
-	print("Max: " + str(numpy.max(sobel_magnitudes[0])))
+	# print("Average: " + str(numpy.average(sobel_magnitudes[0])))
+	# print("Max: " + str(numpy.max(sobel_magnitudes[0])))
 
 	sobel_threshold = max_mag/10
 
@@ -177,7 +178,7 @@ def load_and_downsample(df):
 		LIST downsampled controls
 		LIST downsampled patients
 	"""
-
+	print("Downsampling by factor of " + str(df))
 	controls = list()
 	patients = list()
 
@@ -286,6 +287,11 @@ def train_and_test_svm(patients, controls):
 		p_train_idxs, p_test_idxs, \
 		c_train_idxs, c_test_idxs = random_train_test_indices(num_patients, num_controls, percent_train)
 
+		print(p_train_idxs)
+		print(p_test_idxs)
+		print(c_train_idxs)
+		print(c_test_idxs)
+
 		train_array = list()
 		test_array = list()
 		train_classes = list()
@@ -307,27 +313,31 @@ def train_and_test_svm(patients, controls):
 			test_array.append(controls[i])
 			test_classes.append(0)
 
-		k_best = SelectKBest(k = 50)
-		train_array = k_best.fit_transform(train_array, train_classes)
+		# k_best = SelectKBest(chi2, k = num_patients + num_controls)
+		# k_best = SelectKBest(chi2, k = 5)
+		# train_array = k_best.fit_transform(train_array, train_classes)
 
 		clf = svm.SVC()
 		clf.fit(train_array, train_classes)
 
-		test_array = k_best.transform(test_array)
+		# test_array = k_best.transform(test_array)
 		guesses = clf.predict(test_array)
 
 		num_correct = 0
 
 		for n in range(len(test_array)):
-			print(str(type(guesses)))
 			actual = test_classes[n]
 			guess = guesses[n]
+			print("actual: " + str(actual))
+			print("guess: " + str(guess))
 
 			if actual == guess: 
 				num_correct += 1
+				print("CORRECT!\n")
 
 
-		accuracy = num_correct*100/len(test_array))
+		accuracy = num_correct*100/len(test_array)
+		print("test accuracy: " + str(accuracy))
 		total_accuracy += accuracy
 
 	overall_accuracy = total_accuracy/num_tests
@@ -336,11 +346,8 @@ def train_and_test_svm(patients, controls):
 
 	return overall_accuracy
 
-
-
-if __name__ == "__main__":
+def cohog(downsample_factor):
 	start = time.time()
-	downsample_factor = 4
 	controls, patients = load_and_downsample(downsample_factor)
 	c_vectors, p_vectors = list(), list()
 
@@ -365,8 +372,19 @@ if __name__ == "__main__":
 
 
 	accuracy = train_and_test_svm(p_vectors, c_vectors)
-	print("ACCURACY: " + str(accuracy))
-	print("TOTAL TIME: " + str(time.time() - start))
+	return accuracy
+
+if __name__ == "__main__":
+	final_msg = str()
+	for x in range(4,5):
+		start = time.time()
+		a = cohog(x)
+
+
+		final_msg += "Downsampled: " + str(x)
+		final_msg += "\nAccuracy: " + str(a)
+		final_msg += "\nTime: " + str(time.time()-start) + "\n\n"
+	print(final_msg)
 
 	
 
