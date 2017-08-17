@@ -12,6 +12,7 @@ from sklearn import svm
 import random
 from random import shuffle
 from sklearn.feature_selection import SelectKBest 
+from sklearn.feature_selection import SelectPercentile
 from sklearn.feature_selection import chi2
 
 
@@ -63,38 +64,51 @@ def create_co_occurence_vector(matrix):
 	"""
 	print("Making co-occurrence vector")
 	start = time.time()
+	# print("Sobel Matrix")
+	# for i in range(len(matrix)):
+	# 	print(matrix[i])
 
 	#scans offets in a cube out from the current voxel. Neighbourhood size is the 
 	#side length of that cube.
 	neighbourhoodsize = 2
-	num_offsets = neighbourhoodsize ** 3
+	num_offsets = (neighbourhoodsize*2) ** 3
 
 
-	co_matrix = numpy.zeros((9,9,num_offsets))
+	co_matrix = numpy.zeros((num_offsets,9,9))
 	xdim,ydim,zdim = len(matrix),len(matrix[0]),len(matrix[0][0])
 
 	#for each voxel in the scan
-	for x in range(xdim - neighbourhoodsize):
-		for y in range(ydim - neighbourhoodsize):
-			for z in range(zdim - neighbourhoodsize):
+	for x in range(neighbourhoodsize, xdim - neighbourhoodsize):
+		for y in range(neighbourhoodsize, ydim - neighbourhoodsize):
+			for z in range(neighbourhoodsize, zdim - neighbourhoodsize):
 				scanning_voxel = int(matrix.item(x,y,z))
 
 				#for each offset per voxel
 				offset_count = 0
-				for a in range(neighbourhoodsize):
-					for b in range(neighbourhoodsize):
-						for c in range(neighbourhoodsize):
+				for a in range(-neighbourhoodsize, neighbourhoodsize):
+					for b in range(-neighbourhoodsize, neighbourhoodsize):
+						for c in range(-neighbourhoodsize, neighbourhoodsize):
 							neighbour_voxel = int(matrix.item(x+a,y+b,z+c))
-							prev_value = co_matrix.item((scanning_voxel,neighbour_voxel,offset_count))
+							prev_value = co_matrix.item((offset_count, scanning_voxel,neighbour_voxel))
 
 							#increment the value by one every co-occurence
-							co_matrix.itemset((scanning_voxel, neighbour_voxel, offset_count), prev_value + 1)
-							offset_count += 1
+							co_matrix.itemset((offset_count, scanning_voxel, neighbour_voxel), prev_value + 1)
 
+							offset_count += 1
+							
+
+
+
+	# print("Co-occurence matrix")
+	# for i in range(len(co_matrix)):
+	# 	print(co_matrix[i])
 
 	#reshape matrix to one dimensional vector
 	co_vector = co_matrix.reshape(9 * 9 * num_offsets)
+	# print("CoVector:")
+	# print(co_vector)
 	print("TIME: " + str(time.time() - start))
+
 
 	return co_vector
 
@@ -271,6 +285,13 @@ def train_and_test_svm(patients, controls):
 	Returns:
 		INT accuracy result from testing
 	"""
+	p_class = [1 for x in range(len(patients))]
+	c_class = [0 for x in range(len(controls))]
+	all_classes = p_class + c_class
+
+	all_samples = patients + controls
+	k_best = SelectPercentile(score_func = chi2)
+	k_best.fit(all_samples, all_classes)
 
 	percent_train = 0.5
 
@@ -313,14 +334,14 @@ def train_and_test_svm(patients, controls):
 			test_array.append(controls[i])
 			test_classes.append(0)
 
-		# k_best = SelectKBest(chi2, k = num_patients + num_controls)
-		# k_best = SelectKBest(chi2, k = 5)
-		# train_array = k_best.fit_transform(train_array, train_classes)
 
-		clf = svm.SVC()
+
+		train_array = k_best.transform(train_array)
+		test_array = k_best.transform(test_array)
+		
+
+		clf = svm.LinearSVC()
 		clf.fit(train_array, train_classes)
-
-		# test_array = k_best.transform(test_array)
 		guesses = clf.predict(test_array)
 
 		num_correct = 0
@@ -351,6 +372,7 @@ def cohog(downsample_factor):
 	controls, patients = load_and_downsample(downsample_factor)
 	c_vectors, p_vectors = list(), list()
 
+
 	count = 0
 	for c in controls:
 		print("COUNT: " + str(count))
@@ -370,13 +392,12 @@ def cohog(downsample_factor):
 		print("\nTOTAL TIME:" + str(time.time() - start) + "\n\n")
 		count += 1
 
-
 	accuracy = train_and_test_svm(p_vectors, c_vectors)
 	return accuracy
 
 if __name__ == "__main__":
 	final_msg = str()
-	for x in range(4,5):
+	for x in range(3,14):
 		start = time.time()
 		a = cohog(x)
 

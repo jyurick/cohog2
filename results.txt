@@ -1,0 +1,9001 @@
+
+test accuracy: 65.0
+{32, 33, 1, 34, 4, 5, 38, 2, 0, 3, 10, 12, 13, 21, 22, 24, 26, 27, 30, 31}
+{35, 36, 37, 6, 7, 8, 39, 9, 11, 14, 15, 16, 17, 18, 19, 20, 23, 25, 28, 29}
+{32, 33, 3, 4, 36, 38, 39, 8, 7, 6, 11, 12, 10, 16, 18, 21, 23, 28, 29, 31}
+{0, 1, 2, 35, 34, 37, 5, 9, 13, 14, 15, 17, 19, 20, 22, 24, 25, 26, 27, 30}
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+test accuracy: 57.5
+{0, 1, 34, 35, 36, 2, 38, 10, 12, 13, 16, 18, 20, 21, 22, 24, 25, 26, 27, 30}
+{32, 33, 3, 4, 5, 6, 7, 37, 8, 39, 11, 9, 14, 15, 17, 19, 23, 28, 29, 31}
+{32, 36, 37, 4, 38, 9, 10, 11, 13, 15, 18, 19, 20, 21, 23, 24, 25, 27, 28, 30}
+{0, 1, 2, 35, 3, 5, 33, 39, 8, 7, 6, 34, 12, 14, 16, 17, 22, 26, 29, 31}
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+test accuracy: 65.0
+{0, 33, 36, 37, 38, 39, 7, 9, 11, 12, 13, 14, 15, 17, 18, 20, 22, 24, 26, 28}
+{32, 1, 34, 3, 4, 35, 6, 2, 8, 5, 10, 16, 19, 21, 23, 25, 27, 29, 30, 31}
+{1, 34, 3, 36, 6, 7, 12, 13, 14, 15, 16, 22, 23, 24, 25, 26, 27, 28, 29, 31}
+{32, 0, 33, 35, 4, 5, 2, 39, 8, 9, 10, 11, 37, 38, 17, 18, 19, 20, 21, 30}
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+test accuracy: 62.5
+{0, 2, 4, 38, 7, 8, 9, 39, 14, 15, 16, 18, 19, 21, 23, 24, 27, 29, 30, 31}
+{32, 33, 1, 35, 36, 5, 3, 6, 34, 37, 10, 11, 12, 13, 17, 20, 22, 25, 26, 28}
+{32, 0, 2, 3, 4, 37, 6, 39, 8, 34, 10, 11, 15, 18, 19, 20, 24, 26, 27, 31}
+{33, 1, 35, 36, 5, 38, 7, 9, 12, 13, 14, 16, 17, 21, 22, 23, 25, 28, 29, 30}
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+test accuracy: 72.5
+{32, 1, 2, 3, 4, 0, 38, 39, 8, 9, 11, 12, 16, 18, 19, 23, 24, 26, 27, 29}
+{33, 34, 35, 36, 5, 6, 37, 7, 10, 13, 14, 15, 17, 20, 21, 22, 25, 28, 30, 31}
+{1, 34, 4, 37, 36, 38, 8, 9, 10, 11, 14, 15, 17, 20, 21, 22, 25, 26, 27, 29}
+{32, 33, 2, 0, 35, 5, 6, 39, 7, 3, 12, 13, 16, 18, 19, 23, 24, 28, 30, 31}
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+test accuracy: 67.5
+{0, 32, 1, 36, 5, 38, 39, 8, 9, 10, 12, 13, 14, 16, 18, 19, 20, 21, 22, 27}
+{33, 34, 2, 3, 4, 6, 35, 37, 7, 11, 15, 17, 23, 24, 25, 26, 28, 29, 30, 31}
+{0, 33, 2, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 18, 19, 20, 22, 25, 28, 31}
+{32, 1, 34, 35, 36, 37, 38, 3, 39, 12, 15, 16, 17, 21, 23, 24, 26, 27, 29, 30}
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+test accuracy: 67.5
+{0, 34, 3, 36, 37, 38, 5, 4, 6, 35, 11, 14, 15, 19, 21, 22, 23, 26, 27, 31}
+{32, 1, 33, 2, 39, 8, 9, 10, 7, 12, 13, 16, 17, 18, 20, 24, 25, 28, 29, 30}
+{32, 1, 34, 35, 36, 4, 37, 5, 0, 8, 10, 12, 13, 14, 15, 18, 23, 28, 29, 30}
+{33, 2, 3, 6, 7, 39, 9, 38, 11, 16, 17, 19, 20, 21, 22, 24, 25, 26, 27, 31}
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+test accuracy: 70.0
+{32, 0, 35, 4, 3, 38, 6, 9, 16, 18, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30}
+{1, 2, 33, 36, 37, 5, 7, 39, 8, 10, 11, 12, 34, 14, 15, 13, 17, 19, 20, 31}
+{32, 2, 34, 4, 37, 5, 38, 8, 7, 10, 11, 12, 16, 21, 22, 23, 24, 26, 27, 29}
+{0, 33, 1, 3, 36, 35, 6, 39, 9, 13, 14, 15, 17, 18, 19, 20, 25, 28, 30, 31}
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+test accuracy: 57.5
+{32, 1, 34, 33, 4, 5, 38, 7, 8, 39, 2, 11, 16, 18, 20, 21, 22, 24, 25, 28}
+{0, 3, 36, 37, 35, 6, 9, 10, 12, 13, 14, 15, 17, 19, 23, 26, 27, 29, 30, 31}
+{32, 33, 34, 3, 36, 5, 38, 39, 8, 1, 11, 15, 17, 18, 21, 22, 23, 24, 28, 31}
+{0, 2, 35, 4, 37, 6, 7, 9, 10, 12, 13, 14, 16, 19, 20, 25, 26, 27, 29, 30}
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+test accuracy: 60.0
+{32, 1, 34, 2, 4, 36, 3, 39, 8, 7, 12, 13, 14, 15, 16, 19, 21, 24, 25, 31}
+{0, 33, 35, 37, 5, 6, 38, 9, 10, 11, 17, 18, 20, 22, 23, 26, 27, 28, 29, 30}
+{0, 1, 34, 35, 2, 5, 32, 39, 8, 6, 11, 14, 15, 16, 18, 21, 22, 25, 29, 30}
+{33, 3, 36, 37, 4, 38, 7, 9, 10, 12, 13, 17, 19, 20, 23, 24, 26, 27, 28, 31}
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+test accuracy: 65.0
+{32, 0, 34, 2, 36, 33, 6, 39, 1, 9, 11, 13, 14, 17, 19, 20, 27, 29, 30, 31}
+{35, 3, 5, 37, 38, 7, 4, 8, 10, 12, 15, 16, 18, 21, 22, 23, 24, 25, 26, 28}
+{0, 32, 1, 2, 33, 37, 6, 7, 39, 9, 15, 17, 19, 20, 21, 23, 26, 27, 29, 31}
+{34, 3, 36, 5, 38, 35, 8, 4, 10, 11, 12, 13, 14, 16, 18, 22, 24, 25, 28, 30}
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+test accuracy: 57.5
+{33, 2, 35, 4, 37, 7, 8, 10, 14, 16, 18, 20, 21, 22, 23, 24, 25, 26, 28, 31}
+{32, 0, 34, 3, 36, 5, 6, 39, 38, 1, 9, 11, 12, 13, 15, 17, 19, 27, 29, 30}
+{32, 33, 2, 3, 4, 36, 38, 34, 7, 9, 13, 15, 17, 18, 19, 20, 21, 26, 27, 28}
+{0, 1, 35, 37, 6, 39, 8, 5, 10, 11, 12, 14, 16, 22, 23, 24, 25, 29, 30, 31}
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+test accuracy: 62.5
+{32, 34, 35, 36, 37, 38, 6, 8, 9, 7, 13, 15, 16, 18, 19, 20, 21, 22, 27, 31}
+{0, 33, 2, 1, 3, 5, 4, 39, 10, 11, 12, 14, 17, 23, 24, 25, 26, 28, 29, 30}
+{0, 33, 34, 3, 2, 4, 38, 39, 32, 37, 10, 11, 16, 18, 19, 22, 24, 28, 30, 31}
+{1, 35, 36, 5, 6, 7, 8, 9, 12, 13, 14, 15, 17, 20, 21, 23, 25, 26, 27, 29}
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+test accuracy: 57.5
+{33, 35, 5, 37, 8, 9, 10, 12, 14, 15, 16, 18, 21, 22, 23, 24, 26, 29, 30, 31}
+{32, 1, 34, 3, 4, 36, 6, 39, 7, 2, 0, 11, 38, 13, 17, 19, 20, 25, 27, 28}
+{0, 1, 34, 3, 36, 4, 6, 38, 8, 37, 11, 12, 13, 14, 17, 18, 21, 24, 25, 28}
+{32, 33, 2, 35, 5, 7, 39, 9, 10, 15, 16, 19, 20, 22, 23, 26, 27, 29, 30, 31}
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+test accuracy: 52.5
+{32, 33, 2, 34, 5, 38, 6, 8, 7, 12, 13, 16, 18, 19, 20, 25, 26, 28, 29, 31}
+{0, 1, 3, 4, 37, 36, 35, 39, 9, 10, 11, 14, 15, 17, 21, 22, 23, 24, 27, 30}
+{33, 35, 36, 37, 5, 7, 8, 9, 39, 12, 14, 18, 20, 21, 22, 23, 24, 27, 28, 30}
+{32, 1, 2, 0, 4, 3, 6, 38, 34, 10, 11, 13, 15, 16, 17, 19, 25, 26, 29, 31}
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+test accuracy: 55.0
+{32, 33, 2, 35, 36, 37, 6, 5, 38, 11, 12, 13, 14, 17, 18, 19, 21, 26, 28, 30}
+{0, 1, 34, 3, 4, 7, 8, 39, 10, 9, 15, 16, 20, 22, 23, 24, 25, 27, 29, 31}
+{32, 0, 33, 35, 3, 37, 36, 39, 7, 9, 12, 14, 20, 22, 23, 24, 25, 26, 29, 30}
+{1, 2, 34, 4, 5, 38, 6, 8, 10, 11, 13, 15, 16, 17, 18, 19, 21, 27, 28, 31}
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+test accuracy: 42.5
+{1, 33, 3, 4, 37, 5, 38, 35, 9, 10, 11, 12, 14, 16, 18, 24, 25, 29, 30, 31}
+{0, 32, 2, 34, 36, 6, 7, 8, 39, 13, 15, 17, 19, 20, 21, 22, 23, 26, 27, 28}
+{32, 33, 35, 37, 6, 39, 8, 10, 12, 14, 15, 18, 20, 22, 23, 24, 25, 26, 27, 28}
+{0, 1, 2, 3, 4, 36, 5, 34, 38, 7, 9, 11, 13, 16, 17, 19, 21, 29, 30, 31}
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+test accuracy: 65.0
+{1, 33, 35, 34, 6, 9, 10, 12, 13, 14, 18, 19, 21, 22, 23, 24, 25, 26, 28, 30}
+{32, 0, 2, 3, 36, 37, 4, 39, 38, 5, 7, 11, 8, 15, 16, 17, 20, 27, 29, 31}
+{0, 1, 35, 36, 5, 6, 39, 4, 11, 13, 15, 17, 18, 20, 21, 22, 23, 24, 28, 30}
+{32, 33, 34, 2, 3, 37, 38, 7, 8, 9, 10, 12, 14, 16, 19, 25, 26, 27, 29, 31}
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+test accuracy: 62.5
+{32, 3, 35, 37, 38, 6, 8, 4, 39, 10, 9, 14, 16, 18, 19, 21, 23, 24, 26, 29}
+{0, 33, 2, 1, 34, 5, 36, 7, 11, 12, 13, 15, 17, 20, 22, 25, 27, 28, 30, 31}
+{32, 33, 2, 3, 36, 37, 6, 35, 1, 5, 10, 11, 8, 16, 18, 23, 24, 26, 30, 31}
+{0, 34, 4, 38, 7, 39, 9, 12, 13, 14, 15, 17, 19, 20, 21, 22, 25, 27, 28, 29}
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+test accuracy: 60.0
+{0, 1, 2, 35, 36, 4, 38, 39, 7, 15, 16, 17, 20, 21, 22, 23, 24, 26, 27, 28}
+{32, 33, 34, 3, 5, 6, 37, 8, 9, 10, 11, 12, 13, 14, 18, 19, 25, 29, 30, 31}
+{0, 1, 34, 4, 6, 7, 39, 9, 11, 12, 16, 19, 20, 22, 23, 24, 25, 27, 30, 31}
+{32, 33, 2, 35, 3, 37, 5, 36, 8, 38, 10, 13, 14, 15, 17, 18, 21, 26, 28, 29}
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+test accuracy: 52.5
+{32, 33, 35, 4, 37, 38, 39, 7, 10, 11, 13, 14, 16, 17, 22, 24, 25, 26, 27, 28}
+{0, 1, 2, 34, 3, 36, 6, 5, 8, 9, 12, 15, 18, 19, 20, 21, 23, 29, 30, 31}
+{32, 1, 34, 36, 4, 8, 11, 14, 17, 18, 19, 20, 21, 23, 24, 25, 26, 27, 28, 29}
+{0, 33, 2, 3, 35, 37, 38, 39, 7, 5, 6, 10, 9, 13, 12, 15, 16, 22, 30, 31}
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+test accuracy: 57.5
+{32, 33, 0, 35, 4, 36, 38, 6, 39, 9, 7, 10, 12, 13, 14, 15, 19, 21, 29, 30}
+{1, 34, 3, 2, 37, 5, 8, 11, 16, 17, 18, 20, 22, 23, 24, 25, 26, 27, 28, 31}
+{32, 2, 35, 36, 37, 34, 39, 8, 4, 6, 5, 15, 17, 19, 21, 24, 25, 26, 27, 28}
+{0, 33, 1, 3, 38, 7, 9, 10, 11, 12, 13, 14, 16, 18, 20, 22, 23, 29, 30, 31}
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+test accuracy: 65.0
+{0, 1, 2, 35, 33, 37, 36, 39, 5, 11, 17, 19, 21, 23, 24, 26, 27, 28, 29, 31}
+{32, 34, 3, 4, 38, 7, 8, 9, 10, 6, 12, 13, 14, 15, 16, 18, 20, 22, 25, 30}
+{33, 34, 2, 4, 37, 38, 7, 39, 9, 35, 12, 13, 16, 17, 22, 23, 25, 26, 29, 31}
+{32, 0, 1, 3, 36, 5, 6, 8, 10, 11, 14, 15, 18, 19, 20, 21, 24, 27, 28, 30}
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+test accuracy: 52.5
+{32, 1, 2, 0, 36, 4, 38, 7, 10, 11, 12, 13, 15, 16, 18, 22, 24, 25, 28, 29}
+{33, 34, 3, 35, 37, 5, 39, 8, 9, 6, 14, 17, 19, 20, 21, 23, 26, 27, 30, 31}
+{32, 33, 2, 35, 34, 39, 8, 13, 14, 15, 16, 18, 20, 22, 23, 24, 27, 28, 29, 30}
+{0, 1, 3, 36, 5, 6, 7, 38, 9, 10, 11, 12, 37, 17, 19, 21, 4, 25, 26, 31}
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+test accuracy: 55.0
+{1, 2, 33, 6, 7, 8, 38, 10, 12, 15, 16, 18, 19, 23, 24, 25, 26, 27, 30, 31}
+{0, 32, 34, 35, 36, 4, 3, 5, 37, 9, 39, 11, 13, 14, 17, 20, 21, 22, 28, 29}
+{0, 1, 34, 3, 36, 37, 6, 39, 35, 9, 13, 15, 17, 21, 25, 27, 28, 29, 30, 31}
+{32, 33, 2, 4, 5, 38, 7, 8, 10, 11, 12, 14, 16, 18, 19, 20, 22, 23, 24, 26}
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+test accuracy: 55.0
+{32, 33, 34, 1, 36, 6, 39, 8, 10, 12, 16, 18, 21, 22, 23, 25, 26, 28, 30, 31}
+{0, 2, 3, 4, 35, 38, 7, 5, 9, 37, 11, 13, 14, 15, 17, 19, 20, 24, 27, 29}
+{33, 34, 37, 5, 39, 6, 9, 10, 11, 14, 15, 17, 18, 19, 20, 21, 25, 27, 29, 30}
+{32, 1, 2, 3, 36, 35, 0, 7, 8, 38, 4, 12, 13, 16, 22, 23, 24, 26, 28, 31}
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+test accuracy: 57.5
+{32, 0, 2, 35, 36, 5, 6, 38, 4, 34, 13, 14, 18, 19, 20, 22, 23, 25, 26, 31}
+{33, 1, 3, 37, 39, 8, 9, 10, 11, 7, 12, 15, 16, 17, 21, 24, 27, 28, 29, 30}
+{0, 33, 2, 3, 37, 38, 39, 8, 9, 11, 13, 14, 18, 21, 23, 24, 27, 28, 29, 30}
+{32, 1, 34, 35, 4, 5, 36, 7, 6, 10, 12, 15, 16, 17, 19, 20, 22, 25, 26, 31}
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+test accuracy: 52.5
+{34, 35, 36, 2, 39, 12, 13, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 26, 28, 31}
+{0, 1, 32, 3, 4, 37, 6, 7, 8, 9, 10, 11, 38, 5, 14, 33, 25, 27, 29, 30}
+{0, 33, 34, 3, 36, 5, 6, 39, 8, 37, 10, 11, 12, 15, 16, 19, 20, 26, 28, 31}
+{32, 1, 2, 35, 4, 38, 7, 9, 13, 14, 17, 18, 21, 22, 23, 24, 25, 27, 29, 30}
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+test accuracy: 62.5
+{32, 33, 1, 3, 4, 36, 37, 5, 8, 9, 35, 10, 11, 12, 16, 17, 18, 25, 27, 29}
+{0, 2, 34, 38, 6, 7, 39, 13, 14, 15, 19, 20, 21, 22, 23, 24, 26, 28, 30, 31}
+{1, 34, 3, 6, 8, 9, 10, 12, 13, 16, 17, 19, 21, 22, 24, 25, 26, 28, 29, 30}
+{32, 33, 2, 35, 0, 37, 38, 39, 7, 5, 4, 11, 36, 14, 15, 18, 20, 23, 27, 31}
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+test accuracy: 62.5
+{32, 1, 34, 35, 4, 5, 37, 6, 7, 12, 14, 16, 19, 20, 21, 22, 24, 25, 26, 29}
+{0, 33, 2, 3, 36, 38, 39, 8, 9, 10, 11, 13, 15, 17, 18, 23, 27, 28, 30, 31}
+{0, 34, 3, 2, 36, 38, 6, 8, 7, 9, 4, 39, 14, 17, 20, 21, 24, 28, 30, 31}
+{32, 1, 33, 35, 37, 5, 10, 11, 12, 13, 15, 16, 18, 19, 22, 23, 25, 26, 27, 29}
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+test accuracy: 57.5
+{0, 1, 34, 35, 36, 5, 38, 39, 6, 37, 11, 13, 17, 18, 21, 22, 23, 28, 30, 31}
+{32, 33, 2, 3, 4, 7, 8, 9, 10, 12, 14, 15, 16, 19, 20, 24, 25, 26, 27, 29}
+{0, 32, 34, 2, 4, 37, 38, 3, 7, 11, 12, 14, 15, 16, 17, 20, 21, 23, 25, 27}
+{33, 1, 35, 36, 5, 6, 39, 8, 9, 10, 13, 18, 19, 22, 24, 26, 28, 29, 30, 31}
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+test accuracy: 52.5
+{0, 33, 34, 35, 4, 37, 32, 7, 11, 12, 13, 15, 16, 17, 19, 22, 23, 26, 29, 30}
+{1, 2, 3, 36, 5, 6, 39, 8, 9, 10, 38, 14, 18, 20, 21, 24, 25, 27, 28, 31}
+{0, 1, 3, 4, 37, 5, 7, 6, 9, 35, 11, 12, 36, 16, 19, 20, 21, 22, 23, 29}
+{32, 33, 34, 2, 38, 39, 8, 10, 13, 14, 15, 17, 18, 24, 25, 26, 27, 28, 30, 31}
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+test accuracy: 62.5
+{33, 2, 4, 37, 38, 7, 39, 9, 10, 11, 14, 16, 18, 19, 20, 21, 24, 26, 28, 30}
+{0, 1, 34, 35, 36, 5, 6, 32, 8, 3, 12, 13, 15, 17, 22, 23, 25, 27, 29, 31}
+{32, 1, 33, 35, 4, 36, 6, 38, 7, 9, 10, 12, 16, 18, 19, 21, 22, 27, 28, 29}
+{0, 2, 3, 34, 5, 37, 39, 8, 11, 13, 14, 15, 17, 20, 23, 24, 25, 26, 30, 31}
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+test accuracy: 65.0
+{32, 0, 34, 2, 36, 37, 38, 39, 1, 10, 16, 17, 18, 19, 20, 21, 24, 26, 28, 29}
+{33, 3, 4, 5, 6, 35, 8, 9, 7, 11, 12, 13, 14, 15, 22, 23, 25, 27, 30, 31}
+{32, 1, 34, 3, 4, 37, 6, 39, 8, 9, 38, 11, 12, 13, 18, 36, 24, 27, 28, 31}
+{0, 33, 2, 35, 5, 7, 10, 14, 15, 16, 17, 19, 20, 21, 22, 23, 25, 26, 29, 30}
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+test accuracy: 60.0
+{32, 33, 1, 3, 4, 5, 6, 39, 37, 9, 10, 12, 14, 17, 18, 19, 23, 25, 27, 28}
+{0, 2, 34, 36, 35, 38, 7, 8, 11, 13, 15, 16, 20, 21, 22, 24, 26, 29, 30, 31}
+{32, 33, 34, 2, 4, 37, 38, 39, 5, 7, 10, 12, 15, 18, 19, 20, 23, 25, 28, 29}
+{0, 1, 35, 36, 3, 6, 8, 9, 11, 13, 14, 16, 17, 21, 22, 24, 26, 27, 30, 31}
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+test accuracy: 65.0
+{0, 1, 34, 2, 35, 5, 6, 39, 37, 38, 12, 15, 16, 19, 20, 21, 22, 24, 26, 30}
+{32, 33, 3, 36, 4, 7, 8, 9, 10, 11, 13, 14, 17, 18, 23, 25, 27, 28, 29, 31}
+{32, 33, 2, 34, 4, 3, 38, 6, 8, 35, 10, 11, 15, 18, 20, 26, 27, 29, 30, 31}
+{0, 1, 36, 37, 5, 7, 39, 9, 12, 13, 14, 16, 17, 19, 21, 22, 23, 24, 25, 28}
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+test accuracy: 65.0
+{0, 1, 32, 3, 4, 36, 6, 39, 7, 9, 34, 10, 35, 18, 19, 20, 24, 26, 27, 31}
+{33, 2, 5, 38, 37, 8, 11, 12, 13, 14, 15, 16, 17, 21, 22, 23, 25, 28, 29, 30}
+{33, 34, 35, 4, 5, 39, 8, 9, 10, 11, 12, 13, 14, 17, 24, 25, 26, 27, 28, 29}
+{0, 32, 2, 1, 36, 37, 38, 6, 7, 3, 15, 16, 18, 19, 20, 21, 22, 23, 30, 31}
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+test accuracy: 67.5
+{32, 1, 2, 0, 36, 5, 38, 35, 8, 39, 3, 9, 4, 33, 14, 18, 19, 28, 29, 30}
+{34, 37, 6, 7, 10, 11, 12, 13, 15, 16, 17, 20, 21, 22, 23, 24, 25, 26, 27, 31}
+{33, 2, 35, 36, 37, 5, 4, 3, 9, 6, 11, 12, 13, 15, 17, 20, 21, 22, 26, 31}
+{32, 0, 1, 34, 38, 7, 39, 8, 10, 14, 16, 18, 19, 23, 24, 25, 27, 28, 29, 30}
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+test accuracy: 47.5
+{32, 1, 3, 4, 5, 38, 35, 8, 9, 37, 12, 15, 17, 21, 23, 24, 25, 27, 29, 31}
+{0, 33, 34, 2, 36, 6, 39, 7, 10, 11, 13, 14, 16, 18, 19, 20, 22, 26, 28, 30}
+{1, 34, 4, 5, 6, 7, 36, 8, 10, 9, 12, 13, 14, 15, 22, 24, 26, 27, 28, 31}
+{0, 33, 2, 3, 35, 32, 38, 39, 37, 11, 16, 17, 18, 19, 20, 21, 23, 25, 29, 30}
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+test accuracy: 62.5
+{32, 33, 2, 36, 4, 5, 37, 8, 9, 12, 15, 18, 19, 22, 24, 26, 27, 29, 30, 31}
+{0, 1, 34, 3, 35, 6, 7, 38, 39, 10, 11, 13, 14, 16, 17, 20, 21, 23, 25, 28}
+{32, 36, 37, 6, 5, 39, 7, 10, 12, 14, 16, 17, 18, 20, 21, 22, 24, 26, 28, 30}
+{0, 33, 2, 35, 3, 34, 4, 38, 8, 9, 1, 11, 13, 15, 19, 23, 25, 27, 29, 31}
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+test accuracy: 57.5
+{0, 32, 34, 35, 4, 5, 37, 7, 39, 6, 33, 12, 14, 19, 20, 25, 28, 29, 30, 31}
+{1, 2, 3, 36, 38, 8, 9, 10, 11, 13, 15, 16, 17, 18, 21, 22, 23, 24, 26, 27}
+{0, 33, 3, 35, 6, 7, 8, 9, 11, 14, 17, 18, 20, 22, 23, 24, 26, 28, 29, 31}
+{32, 1, 34, 2, 4, 37, 38, 39, 5, 36, 10, 12, 13, 15, 16, 19, 21, 25, 27, 30}
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+test accuracy: 67.5
+{0, 32, 2, 35, 4, 5, 38, 7, 36, 9, 10, 11, 14, 16, 18, 22, 23, 25, 29, 30}
+{1, 34, 3, 33, 37, 6, 39, 8, 12, 13, 15, 17, 19, 20, 21, 24, 26, 27, 28, 31}
+{1, 2, 35, 4, 36, 5, 39, 8, 7, 38, 6, 14, 15, 19, 22, 23, 26, 28, 29, 31}
+{0, 33, 32, 3, 34, 37, 9, 10, 11, 12, 13, 16, 17, 18, 20, 21, 24, 25, 27, 30}
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+test accuracy: 52.5
+{32, 0, 34, 3, 36, 2, 38, 6, 35, 9, 10, 11, 12, 15, 16, 18, 23, 25, 26, 27}
+{1, 33, 4, 5, 37, 39, 7, 8, 13, 14, 17, 19, 20, 21, 22, 24, 28, 29, 30, 31}
+{32, 35, 36, 37, 38, 4, 8, 9, 10, 7, 16, 17, 18, 20, 22, 23, 26, 27, 29, 31}
+{0, 33, 2, 1, 34, 5, 6, 39, 3, 11, 12, 13, 14, 15, 19, 21, 24, 25, 28, 30}
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+test accuracy: 70.0
+{0, 1, 2, 33, 3, 38, 9, 10, 11, 14, 15, 16, 17, 19, 21, 22, 24, 25, 27, 29}
+{32, 34, 35, 4, 36, 6, 7, 8, 39, 37, 5, 12, 13, 18, 20, 23, 26, 28, 30, 31}
+{0, 33, 2, 3, 5, 38, 39, 37, 9, 10, 11, 13, 14, 15, 16, 22, 23, 25, 26, 31}
+{32, 1, 34, 35, 36, 4, 6, 7, 8, 12, 17, 18, 19, 20, 21, 24, 27, 28, 29, 30}
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+test accuracy: 62.5
+{32, 1, 2, 35, 36, 5, 33, 7, 39, 0, 38, 9, 4, 13, 16, 20, 21, 22, 23, 27}
+{34, 3, 37, 6, 8, 10, 11, 12, 14, 15, 17, 18, 19, 24, 25, 26, 28, 29, 30, 31}
+{0, 1, 34, 5, 38, 37, 6, 9, 10, 14, 15, 17, 18, 21, 22, 23, 24, 27, 30, 31}
+{32, 33, 2, 3, 36, 4, 35, 39, 8, 7, 11, 12, 13, 16, 19, 20, 25, 26, 28, 29}
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+test accuracy: 70.0
+{32, 0, 3, 4, 5, 35, 39, 8, 12, 13, 14, 20, 21, 23, 24, 25, 26, 28, 29, 30}
+{1, 34, 2, 36, 37, 6, 7, 38, 9, 10, 11, 33, 15, 16, 17, 18, 19, 22, 27, 31}
+{0, 33, 34, 1, 35, 37, 38, 39, 8, 9, 4, 13, 15, 16, 19, 21, 24, 25, 29, 31}
+{32, 2, 3, 36, 5, 6, 7, 10, 11, 12, 14, 17, 18, 20, 22, 23, 26, 27, 28, 30}
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+test accuracy: 50.0
+{0, 33, 34, 4, 37, 6, 38, 9, 11, 14, 15, 17, 20, 21, 23, 24, 25, 27, 28, 29}
+{32, 1, 2, 35, 36, 5, 3, 7, 8, 39, 10, 12, 13, 16, 18, 19, 22, 26, 30, 31}
+{0, 33, 34, 35, 2, 6, 7, 8, 38, 10, 12, 14, 16, 17, 18, 20, 22, 27, 28, 30}
+{32, 1, 3, 36, 37, 4, 5, 39, 9, 11, 13, 15, 19, 21, 23, 24, 25, 26, 29, 31}
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+test accuracy: 62.5
+{0, 35, 36, 3, 6, 38, 39, 9, 11, 12, 13, 15, 16, 17, 18, 21, 22, 25, 26, 29}
+{32, 1, 34, 2, 4, 5, 37, 7, 8, 33, 10, 14, 19, 20, 23, 24, 27, 28, 30, 31}
+{32, 0, 33, 35, 36, 38, 7, 8, 6, 12, 13, 17, 18, 19, 22, 23, 24, 25, 26, 29}
+{1, 34, 3, 4, 37, 2, 39, 5, 9, 10, 11, 14, 15, 16, 20, 21, 27, 28, 30, 31}
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+test accuracy: 62.5
+{32, 33, 35, 3, 37, 38, 39, 7, 8, 12, 14, 16, 17, 21, 23, 25, 28, 29, 30, 31}
+{0, 1, 2, 34, 36, 4, 6, 5, 9, 10, 11, 13, 15, 18, 19, 20, 22, 24, 26, 27}
+{32, 0, 33, 1, 3, 4, 38, 6, 8, 9, 7, 39, 15, 16, 20, 21, 25, 28, 29, 31}
+{34, 35, 36, 37, 5, 2, 10, 11, 12, 13, 14, 17, 18, 19, 22, 23, 24, 26, 27, 30}
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+test accuracy: 52.5
+{0, 32, 2, 33, 1, 4, 38, 3, 7, 10, 11, 13, 14, 15, 16, 23, 24, 26, 30, 31}
+{34, 35, 36, 37, 5, 39, 8, 9, 6, 12, 17, 18, 19, 20, 21, 22, 25, 27, 28, 29}
+{0, 32, 2, 35, 36, 3, 38, 7, 6, 8, 9, 11, 37, 16, 17, 19, 20, 21, 27, 29}
+{1, 34, 33, 4, 5, 39, 10, 12, 13, 14, 15, 18, 22, 23, 24, 25, 26, 28, 30, 31}
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+test accuracy: 72.5
+{2, 35, 34, 37, 38, 39, 4, 9, 10, 11, 3, 13, 14, 17, 19, 22, 23, 26, 28, 30}
+{0, 32, 1, 33, 36, 5, 6, 7, 8, 12, 15, 16, 18, 20, 21, 24, 25, 27, 29, 31}
+{34, 3, 4, 37, 5, 35, 8, 9, 11, 13, 14, 15, 16, 17, 19, 22, 24, 26, 27, 28}
+{32, 0, 2, 1, 36, 33, 38, 39, 6, 7, 10, 12, 18, 20, 21, 23, 25, 29, 30, 31}
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+test accuracy: 67.5
+{2, 34, 4, 36, 38, 39, 7, 9, 11, 16, 17, 18, 19, 20, 24, 26, 27, 29, 30, 31}
+{32, 33, 0, 35, 3, 5, 6, 37, 8, 1, 10, 12, 13, 14, 15, 21, 22, 23, 25, 28}
+{32, 33, 34, 3, 35, 2, 6, 7, 8, 9, 12, 16, 18, 19, 21, 24, 25, 28, 29, 31}
+{0, 1, 4, 37, 36, 39, 5, 38, 10, 11, 13, 14, 15, 17, 20, 22, 23, 26, 27, 30}
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+test accuracy: 60.0
+{0, 32, 34, 33, 35, 5, 38, 36, 6, 9, 10, 11, 15, 19, 20, 22, 24, 28, 30, 31}
+{1, 2, 3, 4, 37, 39, 8, 7, 12, 13, 14, 16, 17, 18, 21, 23, 25, 26, 27, 29}
+{0, 1, 34, 35, 3, 5, 6, 39, 38, 37, 10, 11, 12, 13, 14, 18, 22, 23, 24, 25}
+{32, 33, 2, 4, 36, 7, 8, 9, 15, 16, 17, 19, 20, 21, 26, 27, 28, 29, 30, 31}
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+test accuracy: 57.5
+{32, 1, 34, 2, 35, 37, 3, 39, 7, 9, 10, 13, 14, 18, 19, 20, 22, 25, 26, 29}
+{0, 33, 4, 5, 38, 6, 36, 8, 11, 12, 15, 16, 17, 21, 23, 24, 27, 28, 30, 31}
+{1, 34, 2, 4, 37, 5, 39, 8, 10, 11, 12, 18, 19, 21, 22, 24, 25, 26, 28, 31}
+{32, 33, 0, 35, 3, 36, 38, 6, 7, 9, 13, 14, 15, 16, 17, 20, 23, 27, 29, 30}
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+test accuracy: 62.5
+{33, 34, 37, 38, 39, 5, 8, 11, 12, 13, 15, 16, 17, 22, 23, 24, 25, 26, 29, 30}
+{0, 1, 2, 35, 36, 3, 6, 7, 32, 9, 10, 4, 14, 18, 19, 20, 21, 27, 28, 31}
+{32, 33, 2, 36, 37, 38, 6, 11, 12, 13, 16, 17, 19, 21, 22, 23, 27, 28, 29, 30}
+{0, 1, 34, 35, 4, 5, 3, 39, 7, 9, 10, 8, 14, 15, 18, 20, 24, 25, 26, 31}
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+test accuracy: 57.5
+{33, 34, 35, 4, 37, 6, 39, 8, 11, 13, 14, 15, 17, 18, 22, 24, 25, 28, 29, 31}
+{0, 1, 32, 3, 2, 5, 38, 7, 36, 9, 10, 12, 16, 19, 20, 21, 23, 26, 27, 30}
+{1, 33, 35, 4, 5, 37, 2, 9, 11, 14, 15, 16, 17, 19, 21, 22, 24, 25, 27, 29}
+{32, 0, 34, 3, 36, 38, 7, 8, 39, 6, 10, 12, 13, 18, 20, 23, 26, 28, 30, 31}
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+test accuracy: 70.0
+{0, 1, 32, 35, 4, 33, 5, 34, 6, 11, 12, 14, 18, 20, 22, 23, 25, 28, 30, 31}
+{2, 3, 36, 37, 38, 7, 8, 9, 10, 39, 13, 15, 16, 17, 19, 21, 24, 26, 27, 29}
+{0, 1, 2, 3, 36, 5, 38, 8, 13, 14, 15, 16, 17, 19, 20, 21, 22, 24, 26, 29}
+{32, 33, 34, 35, 4, 37, 6, 7, 39, 9, 10, 11, 12, 18, 23, 25, 27, 28, 30, 31}
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+test accuracy: 67.5
+{32, 0, 35, 37, 5, 7, 8, 13, 14, 16, 18, 19, 21, 22, 23, 24, 26, 27, 30, 31}
+{33, 34, 2, 36, 4, 38, 39, 6, 9, 1, 11, 12, 10, 15, 3, 17, 20, 25, 28, 29}
+{34, 3, 4, 5, 6, 36, 7, 10, 11, 13, 15, 16, 19, 24, 25, 27, 28, 29, 30, 31}
+{32, 33, 2, 35, 0, 37, 38, 39, 8, 9, 1, 12, 14, 17, 18, 20, 21, 22, 23, 26}
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+test accuracy: 57.5
+{0, 2, 35, 3, 4, 39, 11, 14, 16, 18, 19, 21, 22, 25, 26, 27, 28, 29, 30, 31}
+{32, 33, 34, 1, 36, 5, 38, 7, 8, 9, 37, 10, 12, 13, 6, 15, 17, 20, 23, 24}
+{0, 33, 2, 3, 4, 37, 35, 6, 8, 11, 12, 14, 15, 16, 17, 18, 22, 26, 28, 30}
+{32, 1, 34, 36, 5, 38, 7, 39, 9, 10, 13, 19, 20, 21, 23, 24, 25, 27, 29, 31}
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+test accuracy: 60.0
+{32, 35, 4, 37, 6, 39, 38, 9, 5, 7, 13, 15, 19, 20, 22, 23, 25, 28, 29, 30}
+{0, 33, 2, 3, 36, 34, 1, 8, 10, 11, 12, 14, 16, 17, 18, 21, 24, 26, 27, 31}
+{0, 32, 34, 35, 36, 4, 5, 2, 8, 9, 10, 14, 15, 18, 19, 22, 24, 25, 28, 31}
+{1, 33, 3, 37, 38, 7, 6, 39, 11, 12, 13, 16, 17, 20, 21, 23, 26, 27, 29, 30}
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+test accuracy: 62.5
+{32, 1, 0, 35, 4, 37, 6, 39, 10, 13, 15, 16, 18, 20, 21, 25, 27, 28, 29, 30}
+{33, 2, 3, 36, 5, 38, 7, 8, 9, 34, 11, 12, 14, 17, 19, 22, 23, 24, 26, 31}
+{0, 32, 2, 1, 36, 37, 5, 4, 8, 34, 10, 11, 15, 16, 18, 20, 21, 25, 26, 31}
+{33, 35, 3, 38, 39, 7, 9, 6, 12, 13, 14, 17, 19, 22, 23, 24, 27, 28, 29, 30}
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+test accuracy: 65.0
+{32, 0, 2, 35, 4, 37, 7, 39, 10, 11, 12, 13, 15, 17, 18, 19, 20, 24, 26, 31}
+{1, 33, 3, 36, 5, 34, 6, 38, 9, 8, 14, 16, 21, 22, 23, 25, 27, 28, 29, 30}
+{1, 34, 35, 4, 5, 7, 8, 10, 11, 12, 16, 18, 19, 21, 23, 26, 27, 29, 30, 31}
+{0, 32, 33, 2, 36, 37, 6, 39, 3, 9, 38, 13, 14, 15, 17, 20, 22, 24, 25, 28}
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+test accuracy: 62.5
+{32, 33, 34, 3, 4, 37, 1, 5, 8, 39, 10, 11, 13, 17, 18, 21, 23, 25, 26, 31}
+{0, 2, 35, 36, 38, 7, 6, 9, 12, 14, 15, 16, 19, 20, 22, 24, 27, 28, 29, 30}
+{32, 33, 34, 3, 35, 8, 13, 14, 15, 18, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29}
+{0, 1, 2, 36, 37, 6, 39, 4, 9, 10, 5, 7, 11, 38, 12, 16, 17, 19, 30, 31}
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+test accuracy: 62.5
+{0, 33, 34, 35, 36, 2, 32, 39, 8, 15, 16, 19, 20, 22, 23, 24, 26, 27, 28, 29}
+{1, 3, 4, 37, 38, 7, 5, 9, 10, 11, 12, 13, 6, 14, 17, 18, 21, 25, 30, 31}
+{32, 33, 34, 3, 4, 35, 6, 7, 8, 9, 5, 37, 1, 14, 16, 17, 24, 25, 27, 30}
+{0, 2, 36, 38, 39, 10, 11, 12, 13, 15, 18, 19, 20, 21, 22, 23, 26, 28, 29, 31}
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+test accuracy: 52.5
+{0, 1, 2, 34, 35, 5, 4, 7, 8, 36, 33, 11, 32, 16, 20, 21, 22, 25, 29, 31}
+{3, 37, 38, 39, 6, 9, 10, 12, 13, 14, 15, 17, 18, 19, 23, 24, 26, 27, 28, 30}
+{32, 33, 34, 2, 36, 5, 6, 7, 39, 9, 37, 11, 12, 13, 14, 17, 23, 25, 26, 29}
+{0, 1, 3, 35, 4, 38, 8, 10, 15, 16, 18, 19, 20, 21, 22, 24, 27, 28, 30, 31}
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+test accuracy: 65.0
+{0, 33, 35, 4, 5, 37, 38, 7, 9, 10, 13, 16, 17, 18, 20, 22, 24, 25, 28, 30}
+{32, 1, 34, 2, 36, 3, 6, 39, 8, 11, 12, 14, 15, 19, 21, 23, 26, 27, 29, 31}
+{33, 2, 35, 3, 5, 6, 38, 8, 7, 10, 11, 36, 15, 17, 18, 19, 20, 22, 26, 29}
+{32, 1, 0, 34, 4, 37, 39, 9, 12, 13, 14, 16, 21, 23, 24, 25, 27, 28, 30, 31}
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+test accuracy: 52.5
+{1, 2, 35, 4, 36, 37, 38, 5, 9, 12, 20, 21, 23, 24, 25, 26, 27, 28, 29, 31}
+{0, 33, 32, 34, 3, 6, 7, 8, 39, 10, 11, 13, 14, 15, 16, 17, 18, 19, 22, 30}
+{32, 1, 35, 36, 37, 5, 7, 8, 9, 12, 15, 19, 20, 21, 24, 25, 26, 27, 29, 31}
+{0, 33, 2, 34, 4, 3, 6, 39, 38, 10, 11, 13, 14, 16, 17, 18, 22, 23, 28, 30}
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 0
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 1
+guess: 1
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 1
+actual: 0
+guess: 1
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+actual: 0
+guess: 0
+CORRECT!
+
+test accuracy: 67.5
+SVM TIME: 24.076886415481567
+
+
+Downsampled: 3
+Accuracy: 48.8825
+Time: 2477.149054288864
+
+Downsampled: 4
+Accuracy: 53.8675
+Time: 988.3387167453766
+
+Downsampled: 5
+Accuracy: 54.9575
+Time: 543.5236976146698
+
+Downsampled: 6
+Accuracy: 57.52
+Time: 325.77739095687866
+
+Downsampled: 7
+Accuracy: 57.565
+Time: 226.57709884643555
+
+Downsampled: 8
+Accuracy: 59.375
+Time: 162.20292019844055
+
+Downsampled: 9
+Accuracy: 58.495
+Time: 139.30708622932434
+
+Downsampled: 10
+Accuracy: 59.2875
+Time: 116.95565724372864
+
+Downsampled: 11
+Accuracy: 60.175
+Time: 104.3222439289093
+
+Downsampled: 12
+Accuracy: 58.4225
+Time: 90.78288745880127
+
+Downsampled: 13
+Accuracy: 60.435
+Time: 82.00407552719116
+
+
+
+C:\Users\jyuri\Desktop\ALS\cohog2>
