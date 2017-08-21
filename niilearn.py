@@ -367,9 +367,126 @@ def train_and_test_svm(patients, controls):
 
 	return overall_accuracy
 
+def load_and_downsample(df):
+	"""
+	Assumes the program is run from a directory containing folders for controls and patients. 
+	Loads nii files from those folders and downsamples them by the downsampling factor df.
+
+	Parameters:
+		INT df downsampling factor
+
+	Returns:
+		LIST downsampled controls
+		LIST downsampled patients
+	"""
+	print("Downsampling by factor of " + str(df))
+	controls = list()
+	patients = list()
+
+	os.chdir(os.getcwd() + "\\controls")
+	for f in os.listdir():
+		print("downsample " + str(f))
+		split_f = f.split(".")
+		if len(split_f) < 2  or split_f[1] != "nii":
+			continue
+
+		img = nib.load(f)
+		downed = downscale(img.get_data(), (df,df,df))
+		# plotting.plot_img(downed_img)
+		# plotting.plot_img(img)
+		# plotting.show()
+		
+		controls.append(downed)		
+
+	os.chdir("..")
+
+	os.chdir(os.getcwd() + "\\patients")
+	for f in os.listdir():
+		print("downsample " + str(f))
+		split_f = f.split(".")
+		if len(split_f) < 2  or split_f[1] != "nii":
+			continue
+
+		img = nib.load(f)
+		downed = downscale(img.get_data(), (df,df,df))
+		# plotting.plot_img(downed_img)
+		# plotting.plot_img(img)
+		# plotting.show() 
+		
+		patients.append(downed)		
+
+	os.chdir("..")
+
+	return controls, patients
+
+def load_mask_and_downsample(df):
+	controls = list()
+	patients = list()
+
+	os.chdir(os.getcwd() + "\\controls\\masks")
+	for f in os.listdir():
+		print("downsample " + str(f))
+		split_f = f.split(".")
+		if len(split_f) < 2  or split_f[1] != "nii":
+			continue
+
+		img = nib.load(f)
+		downed = downscale(img.get_data(), (df,df,df))
+		# plotting.plot_img(downed_img)
+		# plotting.plot_img(img)
+		# plotting.show()
+		shape = downed.shape
+		for x in range(shape[0]):
+			print(downed[x].sum())
+		
+		controls.append(downed)		
+
+	os.chdir("..")
+	os.chdir("..")
+
+	os.chdir(os.getcwd() + "\\patients\\masks")
+	for f in os.listdir():
+		print("downsample " + str(f))
+		split_f = f.split(".")
+		if len(split_f) < 2  or split_f[1] != "nii":
+			continue
+
+		img = nib.load(f)
+		downed = downscale(img.get_data(), (df,df,df))
+		# plotting.plot_img(downed_img)
+		# plotting.plot_img(img)
+		# plotting.show() 
+		
+		patients.append(downed)		
+
+	os.chdir("..")
+	os.chdir("..")
+
+	return controls, patients
+
+def apply_mask(scans, masks):
+	masked = list()
+
+	for s in range(len(scans)):
+		m_scan = numpy.multiply(scans[s], masks[s])
+
+		shape = m_scan.shape
+		for x in range(shape[0]):
+			print(m_scan[x].sum())
+
+
+
+	return masked
+
+
 def cohog(downsample_factor):
 	start = time.time()
 	controls, patients = load_and_downsample(downsample_factor)
+	c_masks, p_masks = load_mask_and_downsample(downsample_factor)
+
+	c_masked = apply_mask(controls, c_masks)
+
+
 	c_vectors, p_vectors = list(), list()
 
 
@@ -397,7 +514,7 @@ def cohog(downsample_factor):
 
 if __name__ == "__main__":
 	final_msg = str()
-	for x in range(3,14):
+	for x in range(7,10):
 		start = time.time()
 		a = cohog(x)
 
