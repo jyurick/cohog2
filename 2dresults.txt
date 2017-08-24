@@ -1,0 +1,156 @@
+Hudson 7 patients 13 controls
+Downsampled: 1
+Accuracy: 64.67777777777793
+Time: 36.20812106132507
+
+Downsampled: 2
+Accuracy: 55.733333333333114
+Time: 31.807496070861816
+
+Downsampled: 3
+Accuracy: 62.7444444444442
+Time: 31.195744514465332
+
+Downsampled: 4
+Accuracy: 71.61111111111168
+Time: 30.936200618743896
+
+Downsampled: 5
+Accuracy: 89.76666666666769
+Time: 30.378647565841675
+
+Downsampled: 6
+Accuracy: 79.86666666666804
+Time: 28.966806888580322
+
+Downsampled: 7
+Accuracy: 92.16666666666731
+Time: 28.466437101364136
+
+Downsampled: 8
+Accuracy: 92.73333333333406
+Time: 28.228354692459106
+
+Downsampled: 9
+Accuracy: 86.577777777779
+Time: 28.16935133934021
+
+Downsampled: 10
+Accuracy: 94.82222222222273
+Time: 28.106642723083496
+
+Downsampled: 11
+Accuracy: 77.55555555555662
+Time: 27.968308210372925
+
+Downsampled: 12
+Accuracy: 83.46666666666772
+Time: 28.342148542404175
+
+Downsampled: 13
+Accuracy: 83.34444444444554
+Time: 28.042783737182617
+
+Downsampled: 14
+Accuracy: 89.04444444444535
+Time: 28.060728311538696
+
+Downsampled: 15
+Accuracy: 79.32222222222332
+Time: 27.842150688171387
+
+Downsampled: 16
+Accuracy: 79.52222222222325
+Time: 27.837659120559692
+
+Downsampled: 17
+Accuracy: 73.46666666666748
+Time: 27.772698163986206
+
+Downsampled: 18
+Accuracy: 69.35555555555592
+Time: 27.608104467391968
+
+Downsampled: 19
+Accuracy: 65.61111111111082
+Time: 27.67829394340515
+
+**********************************************************
+
+CalsNic 48 Controls 73 Patients
+Downsampled: 1
+Accuracy: 51.76333333333335
+Time: 376.4213230609894
+
+Downsampled: 2
+Accuracy: 52.14999999999997
+Time: 256.07407808303833
+
+Downsampled: 3
+Accuracy: 55.498333333333285
+Time: 233.69239592552185
+
+Downsampled: 4
+Accuracy: 58.09333333333328
+Time: 229.86207389831543
+
+Downsampled: 5
+Accuracy: 62.103333333333296
+Time: 227.26794981956482
+
+Downsampled: 6
+Accuracy: 65.99833333333342
+Time: 224.43940663337708
+
+Downsampled: 7
+Accuracy: 65.80833333333334
+Time: 220.6419701576233
+
+Downsampled: 8
+Accuracy: 65.74500000000006
+Time: 220.0793867111206
+
+Downsampled: 9
+Accuracy: 67.48000000000005
+Time: 219.81372237205505
+
+Downsampled: 10
+Accuracy: 70.50000000000003
+Time: 214.59420251846313
+
+Downsampled: 11
+Accuracy: 65.65166666666669
+Time: 215.34432077407837
+
+Downsampled: 12
+Accuracy: 57.05166666666669
+Time: 215.65685105323792
+
+Downsampled: 13
+Accuracy: 64.57666666666667
+Time: 214.64108395576477
+
+Downsampled: 14
+Accuracy: 66.74666666666677
+Time: 217.17305374145508
+
+Downsampled: 15
+Accuracy: 58.37
+Time: 215.1725676059723
+
+Downsampled: 16
+Accuracy: 60.50000000000007
+Time: 216.15703439712524
+
+Downsampled: 17
+Accuracy: 58.41666666666664
+Time: 215.26617550849915
+
+Downsampled: 18
+Accuracy: 58.90333333333343
+Time: 214.56294751167297
+
+Downsampled: 19
+Accuracy: 56.57999999999996
+Time: 214.76610207557678
+

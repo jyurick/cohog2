@@ -112,6 +112,58 @@ def create_co_occurence_vector(matrix):
 
 	return co_vector
 
+def create_co_occurence_vector_2d(matrix):
+	"""
+	Given a matrix representing the bin value of each voxel, creates a co-occurence matrix and returns it
+	in vectorized form.
+
+	Parameters:
+		NUMPY.NDARRAY matrix containing the bin value for each voxel
+	Returns:
+		NUMPY.ARRAY vector of size num_features
+	"""
+	print("Making co-occurrence vector")
+	start = time.time()
+
+
+	#scans offets in a cube out from the current voxel. Neighbourhood size is the 
+	#side length of that cube.
+	neighbourhoodsize = 2
+	num_offsets = (neighbourhoodsize*2) ** 2
+
+
+	co_matrix = numpy.zeros((num_offsets,9,9))
+	xdim,ydim = len(matrix),len(matrix[0])
+
+	#for each voxel in the scan
+	for x in range(neighbourhoodsize, xdim - neighbourhoodsize):
+		for y in range(neighbourhoodsize, ydim - neighbourhoodsize):
+
+			scanning_voxel = int(matrix.item(x,y))
+
+			#for each offset per voxel
+			offset_count = 0
+			for a in range(-neighbourhoodsize, neighbourhoodsize):
+				for b in range(-neighbourhoodsize, neighbourhoodsize):
+
+					neighbour_voxel = int(matrix.item(x+a,y+b))
+					prev_value = co_matrix.item((offset_count, scanning_voxel,neighbour_voxel))
+
+					#increment the value by one every co-occurence
+					co_matrix.itemset((offset_count, scanning_voxel, neighbour_voxel), prev_value + 1)
+
+					offset_count += 1
+							
+
+	#reshape matrix to one dimensional vector
+	co_vector = co_matrix.reshape(9 * 9 * num_offsets)
+
+	print("TIME: " + str(time.time() - start))
+
+
+	return co_vector
+
+
 
 def apply_sobel(img):
 
@@ -178,6 +230,97 @@ def apply_sobel(img):
 	print("TIME: " + str(time.time()-start))
 
 	return sobel_directions, sobel_magnitudes
+
+def apply_sobel_2d(img):
+
+	"""
+	Takes in the data array from a nii file and applies the Sobel gradient operator on it. Sobel gradient
+	directions are binned from 0-8.
+	Parameters:
+		NUMPY.NDARRAY representing the greyscale voxel values
+
+	Returns:
+		NUMPY.NDARRAY of the binned Sobel direction for each voxel
+		NUMPY.NDARRAY of the Sobel magnitude for each voxel
+	"""
+
+
+	print("Applying Sobel")
+	start = time.time()
+	dx = ndimage.sobel(img,0)
+	dy = ndimage.sobel(img,1)
+
+	shape = dx.shape
+
+	sobel_magnitudes = numpy.ndarray(shape = shape)
+	sobel_directions = numpy.ndarray(shape = shape)
+
+	for x in range(shape[0]):
+		for y in range(shape[1]):
+
+			coord = tuple((x,y))
+			mx = dx.item(coord)
+			my = dy.item(coord)
+
+			mag = math.sqrt((mx**2) + (my**2))
+			sobel_magnitudes.itemset(coord,mag)
+
+				
+	max_mag = numpy.max(sobel_magnitudes[0])
+	# print("Average: " + str(numpy.average(sobel_magnitudes[0])))
+	# print("Max: " + str(numpy.max(sobel_magnitudes[0])))
+
+	sobel_threshold = max_mag/10
+
+	for x in range(shape[0]):
+		for y in range(shape[1]):
+
+			coord = tuple((x,y))
+			mx = dx.item(coord)
+			my = dy.item(coord)
+
+			mag = sobel_magnitudes.item(coord)
+
+			if mag >= sobel_threshold:
+				bin = bin_sobel_2d(mx, my)
+				sobel_directions.itemset(coord,bin)
+			else:
+				sobel_directions.itemset(coord,0)
+
+
+
+	print("TIME: " + str(time.time()-start))
+
+	return sobel_directions, sobel_magnitudes
+
+
+def bin_sobel_2d(mx, my):
+	if mx > 0 and my > 0 and mx > my:
+		return 1
+
+	if mx > 0 and my > 0 and mx < my:
+		return 2
+
+	if mx < 0 and my > 0 and abs(mx) < my:
+		return 3
+
+	if mx < 0 and my > 0 and abs(mx) > my:
+		return 4
+
+	if mx < 0 and my < 0 and abs(mx) > abs(my):
+		return 5
+
+	if mx < 0 and my < 0 and abs(mx) < abs(my):
+		return 6
+
+	if mx > 0 and my < 0 and mx < abs(my):
+		return 7
+
+	if mx > 0 and my < 0 and mx > abs(my):
+		return 8
+
+	else:
+		return 0
 
 
 def load_and_downsample(df):
@@ -419,11 +562,36 @@ def load_and_downsample(df):
 
 	return controls, patients
 
+def apply_mask(img, mask):
+	img_data = img.get_data()
+	mask_data = mask.get_data()
+
+	mask = list()
+	masked_img = list()
+	slices = set()
+
+	for x in range(mask_data.shape[0]):
+		for y in range(mask_data.shape[1]):
+			if numpy.sum(mask_data[x][y]) > 0:
+				mask.append(mask_data[x][y])
+				masked_img.append(img_data[x][y])
+
+
+	for x in range(len(masked_img)):
+		for y in range(len(masked_img[0])):
+			masked_img[x][y] = masked_img[x][y] * mask[x][y]
+
+	masked_img = numpy.array(masked_img)
+	return masked_img
+
+
 def load_mask_and_downsample(df):
+	print("Downsampling by factor of " + str(df))
 	controls = list()
 	patients = list()
 
-	os.chdir(os.getcwd() + "\\controls\\masks")
+	os.chdir(os.getcwd() + "\\controls")
+
 	for f in os.listdir():
 		print("downsample " + str(f))
 		split_f = f.split(".")
@@ -431,60 +599,46 @@ def load_mask_and_downsample(df):
 			continue
 
 		img = nib.load(f)
-		downed = downscale(img.get_data(), (df,df,df))
-		# plotting.plot_img(downed_img)
-		# plotting.plot_img(img)
-		# plotting.show()
-		shape = downed.shape
-		for x in range(shape[0]):
-			print(downed[x].sum())
+		mask = nib.load(os.getcwd() + "\\masks\\" + split_f[0] + "Mask.nii")
+		print("Mask: " +  split_f[0] + "Mask.nii")
+		masked_img = apply_mask(img, mask)
+		downed = downscale(masked_img, (df,df))
+
 		
 		controls.append(downed)		
 
-	os.chdir("..")
+
 	os.chdir("..")
 
-	os.chdir(os.getcwd() + "\\patients\\masks")
+	os.chdir(os.getcwd() + "\\patients")
+
+
 	for f in os.listdir():
 		print("downsample " + str(f))
 		split_f = f.split(".")
 		if len(split_f) < 2  or split_f[1] != "nii":
 			continue
 
-		img = nib.load(f)
-		downed = downscale(img.get_data(), (df,df,df))
-		# plotting.plot_img(downed_img)
-		# plotting.plot_img(img)
-		# plotting.show() 
+		img = nib.load(f) 
+		mask = nib.load(os.getcwd() + "\\masks\\" + split_f[0] + "Mask.nii")
+
+		masked_img = apply_mask(img, mask)
+		downed = downscale(masked_img, (df,df))
 		
 		patients.append(downed)		
 
-	os.chdir("..")
+
 	os.chdir("..")
 
 	return controls, patients
 
-def apply_mask(scans, masks):
-	masked = list()
-
-	for s in range(len(scans)):
-		m_scan = numpy.multiply(scans[s], masks[s])
-
-		shape = m_scan.shape
-		for x in range(shape[0]):
-			print(m_scan[x].sum())
-
-
-
-	return masked
 
 
 def cohog(downsample_factor):
 	start = time.time()
-	controls, patients = load_and_downsample(downsample_factor)
-	c_masks, p_masks = load_mask_and_downsample(downsample_factor)
 
-	c_masked = apply_mask(controls, c_masks)
+	controls, patients = load_mask_and_downsample(downsample_factor)
+
 
 
 	c_vectors, p_vectors = list(), list()
@@ -494,8 +648,8 @@ def cohog(downsample_factor):
 	for c in controls:
 		print("COUNT: " + str(count))
 		start = time.time()
-		sobel_d, sobel_m = apply_sobel(c)
-		co_vector = create_co_occurence_vector(sobel_d)
+		sobel_d, sobel_m = apply_sobel_2d(c)
+		co_vector = create_co_occurence_vector_2d(sobel_d)
 		c_vectors.append(co_vector)
 		print("\nTOTAL TIME:" + str(time.time() - start) + "\n\n")
 		count += 1
@@ -503,8 +657,8 @@ def cohog(downsample_factor):
 	for p in patients:
 		print("COUNT: " + str(count))
 		start = time.time()
-		sobel_d, sobel_m = apply_sobel(p)
-		co_vector = create_co_occurence_vector(sobel_d)
+		sobel_d, sobel_m = apply_sobel_2d(p)
+		co_vector = create_co_occurence_vector_2d(sobel_d)
 		p_vectors.append(co_vector)
 		print("\nTOTAL TIME:" + str(time.time() - start) + "\n\n")
 		count += 1
@@ -514,7 +668,7 @@ def cohog(downsample_factor):
 
 if __name__ == "__main__":
 	final_msg = str()
-	for x in range(7,10):
+	for x in range(1,20):
 		start = time.time()
 		a = cohog(x)
 
